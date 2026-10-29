@@ -1,0 +1,31 @@
+
+============================================================================================
+  ATTENDANCE RISK PREDICTION REPORT (Threshold = 75%)
+============================================================================================
+Student    Curr%    Need   Best%  Worst%  P(Safe)   Risk%  Category
+--------------------------------------------------------------------------------------------
+Arun       88.57   13/30   92.00   62.00   1.0000    0.00  LOW RISK
+Bhavana    73.85   27/35   83.00   48.00   0.7450   25.50  MEDIUM RISK
+Charan     60.61   35/34   74.00   40.00   0.0000  100.00  CRITICAL
+Divya      91.67   20/40   95.00   55.00   1.0000    0.00  LOW RISK
+Elango     48.39   45/38   68.00   30.00   0.0000  100.00  CRITICAL
+Farah      81.82   30/45   90.00   45.00   0.2249   77.51  HIGH RISK
+
+============================================================================================
+  RECOMMENDATIONS
+============================================================================================
+Arun     [LOW RISK] Safe. Can skip up to 17 classes, but regular attendance is advised.
+Bhavana  [MEDIUM RISK] Attend 27 of 35 remaining classes; avoid more than 8 absences.
+Charan   [CRITICAL] Cannot reach 75% even with full attendance. Apply for condonation / meet mentor.
+Divya    [LOW RISK] Safe. Can skip up to 20 classes, but regular attendance is advised.
+Elango   [CRITICAL] Cannot reach 75% even with full attendance. Apply for condonation / meet mentor.
+Farah    [HIGH RISK] Attend at least 30 of 45 remaining classes. Counselling recommended.
+
+============================================================================================
+  SUMMARY
+============================================================================================
+LOW RISK    : 2
+MEDIUM RISK : 1
+HIGH RISK   : 1
+CRITICAL    : 2
+Highest risk student: Charan (100.00%)
